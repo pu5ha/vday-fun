@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02F63D2FBEAD90DED969B8AB /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A660A5B9938BF109F0D1FBE4 /* PersistenceService.swift */; };
+		18E9967BC0C4DEB4BD925085 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E221F281E1282DA42B9AF013 /* HomeView.swift */; };
+		2DCACB7343DEB4A3A7BE8CEF /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464EB576E15A219EF647ED9 /* GradientBackground.swift */; };
+		2F6EFE763AAA91B8D34BB528 /* PreviewCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284ABCE807CFFC0F3C607C43 /* PreviewCardView.swift */; };
+		32AF73BD18E8E62D391CC6F3 /* ComposeMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9E2ACB3F5A84290C6A0D2C /* ComposeMessageView.swift */; };
+		35A3FA7891375AC71251C524 /* ValentineTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1D288911A7454525803EFF /* ValentineTheme.swift */; };
+		3C9D63B4930CCC43FA37F773 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A86E57EB04BB1E21E0A291 /* ContentView.swift */; };
+		3FE96AA2D9DF7B6538C8BA31 /* LoveNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3C45C821C09FC4D856ABE /* LoveNoteApp.swift */; };
+		5CD23037B8E82E8E50644E2F /* LoveMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817E0B9547470B3F1C185BF6 /* LoveMessage.swift */; };
+		5CD3DB6A855B1B130FC7BD30 /* CardRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2595918E6ABEA6C4099E943B /* CardRenderer.swift */; };
+		6304478D49657C72A9A0CB5D /* ShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B54EDECB181EAA9CC3BAC /* ShareCardView.swift */; };
+		64E7C8386A95BF92EDFB2370 /* HeartParticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FA16F8C1942EF97EBDA2B1 /* HeartParticleView.swift */; };
+		7BE2554256F67C591AFB1121 /* ShimmerModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7114E50C222C1F0B0473557D /* ShimmerModifier.swift */; };
+		85AC9D4418156B672D07C637 /* TemplatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C30144300F4097F95DAD399 /* TemplatePickerView.swift */; };
+		96456D53629094E95E2240CF /* MessageTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BE9B9C9730EABBC3C0B2B2 /* MessageTemplate.swift */; };
+		973A0A2C2D613C0DA86751A2 /* PulsingHeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E04E0B62C2359CC7E950BB5 /* PulsingHeartView.swift */; };
+		A1E3A73897A0B1FAF4D921C9 /* CardDesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82437ED691A4B78F79B0FCE6 /* CardDesignView.swift */; };
+		BB7B34FEB82AE76CD052E80B /* SentMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51F44F74A70FB014A0273F8 /* SentMessagesView.swift */; };
+		BDFB66549E10FDF3B15732DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 872504D7781A2A705962F4A6 /* Assets.xcassets */; };
+		C5C5A4B0D77C3BD5EDE6C592 /* Recipient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC625763C071467AF4424F2 /* Recipient.swift */; };
+		CE432A963B6F898EA42A1015 /* MessageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3204090A6937A9473D476B /* MessageStore.swift */; };
+		EB01C4D2990CCD4CA7BCE4A0 /* RecipientEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DC81DB4B6EEEE069B75129 /* RecipientEntryView.swift */; };
+		F6A7713AE0A65BCA6D0CDD20 /* ComposeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891FDAF770DE0A753F95FB8A /* ComposeViewModel.swift */; };
+		F704CFC6E096EC2296650ECF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D9FE11A0E66C9F032F021EB /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BC625763C071467AF4424F2 /* Recipient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipient.swift; sourceTree = "<group>"; };
+		1C30144300F4097F95DAD399 /* TemplatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatePickerView.swift; sourceTree = "<group>"; };
+		1E1D288911A7454525803EFF /* ValentineTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValentineTheme.swift; sourceTree = "<group>"; };
+		2595918E6ABEA6C4099E943B /* CardRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRenderer.swift; sourceTree = "<group>"; };
+		284ABCE807CFFC0F3C607C43 /* PreviewCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCardView.swift; sourceTree = "<group>"; };
+		2EA3C45C821C09FC4D856ABE /* LoveNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveNoteApp.swift; sourceTree = "<group>"; };
+		4F9E2ACB3F5A84290C6A0D2C /* ComposeMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeMessageView.swift; sourceTree = "<group>"; };
+		55A86E57EB04BB1E21E0A291 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6F1B54EDECB181EAA9CC3BAC /* ShareCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCardView.swift; sourceTree = "<group>"; };
+		6F3204090A6937A9473D476B /* MessageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageStore.swift; sourceTree = "<group>"; };
+		7114E50C222C1F0B0473557D /* ShimmerModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerModifier.swift; sourceTree = "<group>"; };
+		7D9FE11A0E66C9F032F021EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E04E0B62C2359CC7E950BB5 /* PulsingHeartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsingHeartView.swift; sourceTree = "<group>"; };
+		7E1D6E036F8FCA8429317EB4 /* LoveNote.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = LoveNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		817E0B9547470B3F1C185BF6 /* LoveMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveMessage.swift; sourceTree = "<group>"; };
+		82437ED691A4B78F79B0FCE6 /* CardDesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDesignView.swift; sourceTree = "<group>"; };
+		872504D7781A2A705962F4A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88FA16F8C1942EF97EBDA2B1 /* HeartParticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartParticleView.swift; sourceTree = "<group>"; };
+		891FDAF770DE0A753F95FB8A /* ComposeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewModel.swift; sourceTree = "<group>"; };
+		A3DC81DB4B6EEEE069B75129 /* RecipientEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipientEntryView.swift; sourceTree = "<group>"; };
+		A464EB576E15A219EF647ED9 /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
+		A660A5B9938BF109F0D1FBE4 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		A6BE9B9C9730EABBC3C0B2B2 /* MessageTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTemplate.swift; sourceTree = "<group>"; };
+		B51F44F74A70FB014A0273F8 /* SentMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentMessagesView.swift; sourceTree = "<group>"; };
+		E221F281E1282DA42B9AF013 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		078B9FCEE0A78B5F4DB4D0C4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				891FDAF770DE0A753F95FB8A /* ComposeViewModel.swift */,
+				6F3204090A6937A9473D476B /* MessageStore.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1F8FAA56710DFF08EF9E0765 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E1D6E036F8FCA8429317EB4 /* LoveNote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24B438C2CE8CCC434CA99689 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				817E0B9547470B3F1C185BF6 /* LoveMessage.swift */,
+				A6BE9B9C9730EABBC3C0B2B2 /* MessageTemplate.swift */,
+				1BC625763C071467AF4424F2 /* Recipient.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2E09E04A482873FD1A92C095 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7D9FE11A0E66C9F032F021EB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7936BA72930DA96039FA5AE1 = {
+			isa = PBXGroup;
+			children = (
+				A2551570F1BA3C5BA7B2C456 /* LoveNote */,
+				1F8FAA56710DFF08EF9E0765 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96A721B04E0003F31C8631A4 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				A464EB576E15A219EF647ED9 /* GradientBackground.swift */,
+				88FA16F8C1942EF97EBDA2B1 /* HeartParticleView.swift */,
+				7E04E0B62C2359CC7E950BB5 /* PulsingHeartView.swift */,
+				7114E50C222C1F0B0473557D /* ShimmerModifier.swift */,
+				1E1D288911A7454525803EFF /* ValentineTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		A2551570F1BA3C5BA7B2C456 /* LoveNote */ = {
+			isa = PBXGroup;
+			children = (
+				872504D7781A2A705962F4A6 /* Assets.xcassets */,
+				55A86E57EB04BB1E21E0A291 /* ContentView.swift */,
+				2EA3C45C821C09FC4D856ABE /* LoveNoteApp.swift */,
+				24B438C2CE8CCC434CA99689 /* Models */,
+				2E09E04A482873FD1A92C095 /* Preview Content */,
+				C1E81A7EBFA3B67F77A2D9A6 /* Services */,
+				96A721B04E0003F31C8631A4 /* Theme */,
+				078B9FCEE0A78B5F4DB4D0C4 /* ViewModels */,
+				E9C0D7CC9611D7680366A700 /* Views */,
+			);
+			path = LoveNote;
+			sourceTree = "<group>";
+		};
+		C1E81A7EBFA3B67F77A2D9A6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2595918E6ABEA6C4099E943B /* CardRenderer.swift */,
+				A660A5B9938BF109F0D1FBE4 /* PersistenceService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E9C0D7CC9611D7680366A700 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				82437ED691A4B78F79B0FCE6 /* CardDesignView.swift */,
+				4F9E2ACB3F5A84290C6A0D2C /* ComposeMessageView.swift */,
+				E221F281E1282DA42B9AF013 /* HomeView.swift */,
+				284ABCE807CFFC0F3C607C43 /* PreviewCardView.swift */,
+				A3DC81DB4B6EEEE069B75129 /* RecipientEntryView.swift */,
+				B51F44F74A70FB014A0273F8 /* SentMessagesView.swift */,
+				6F1B54EDECB181EAA9CC3BAC /* ShareCardView.swift */,
+				1C30144300F4097F95DAD399 /* TemplatePickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D09DC43D4B0BB41139593CA /* LoveNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A05039C3E6A6744ECED3B0 /* Build configuration list for PBXNativeTarget "LoveNote" */;
+			buildPhases = (
+				489AB71C1A1B5B7E828CB011 /* Sources */,
+				7C858E7F148ABE9F025DFD93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoveNote;
+			packageProductDependencies = (
+			);
+			productName = LoveNote;
+			productReference = 7E1D6E036F8FCA8429317EB4 /* LoveNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		030C6C81C1B6EED30268B106 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1D09DC43D4B0BB41139593CA = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3AA69E4EABED682E27C100E5 /* Build configuration list for PBXProject "LoveNote" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7936BA72930DA96039FA5AE1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D09DC43D4B0BB41139593CA /* LoveNote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C858E7F148ABE9F025DFD93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFB66549E10FDF3B15732DD /* Assets.xcassets in Resources */,
+				F704CFC6E096EC2296650ECF /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		489AB71C1A1B5B7E828CB011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E3A73897A0B1FAF4D921C9 /* CardDesignView.swift in Sources */,
+				5CD3DB6A855B1B130FC7BD30 /* CardRenderer.swift in Sources */,
+				32AF73BD18E8E62D391CC6F3 /* ComposeMessageView.swift in Sources */,
+				F6A7713AE0A65BCA6D0CDD20 /* ComposeViewModel.swift in Sources */,
+				3C9D63B4930CCC43FA37F773 /* ContentView.swift in Sources */,
+				2DCACB7343DEB4A3A7BE8CEF /* GradientBackground.swift in Sources */,
+				64E7C8386A95BF92EDFB2370 /* HeartParticleView.swift in Sources */,
+				18E9967BC0C4DEB4BD925085 /* HomeView.swift in Sources */,
+				5CD23037B8E82E8E50644E2F /* LoveMessage.swift in Sources */,
+				3FE96AA2D9DF7B6538C8BA31 /* LoveNoteApp.swift in Sources */,
+				CE432A963B6F898EA42A1015 /* MessageStore.swift in Sources */,
+				96456D53629094E95E2240CF /* MessageTemplate.swift in Sources */,
+				02F63D2FBEAD90DED969B8AB /* PersistenceService.swift in Sources */,
+				2F6EFE763AAA91B8D34BB528 /* PreviewCardView.swift in Sources */,
+				973A0A2C2D613C0DA86751A2 /* PulsingHeartView.swift in Sources */,
+				C5C5A4B0D77C3BD5EDE6C592 /* Recipient.swift in Sources */,
+				EB01C4D2990CCD4CA7BCE4A0 /* RecipientEntryView.swift in Sources */,
+				BB7B34FEB82AE76CD052E80B /* SentMessagesView.swift in Sources */,
+				6304478D49657C72A9A0CB5D /* ShareCardView.swift in Sources */,
+				7BE2554256F67C591AFB1121 /* ShimmerModifier.swift in Sources */,
+				85AC9D4418156B672D07C637 /* TemplatePickerView.swift in Sources */,
+				35A3FA7891375AC71251C524 /* ValentineTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3EE8B3D44AE39FC7D96B61A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		53935318C4E736A5BF74E8DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibegang.lovenote;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7AA5DB45E5C4FDB139607DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E9D43EE1C4D8405A1AE441A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibegang.lovenote;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26A05039C3E6A6744ECED3B0 /* Build configuration list for PBXNativeTarget "LoveNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D43EE1C4D8405A1AE441A1 /* Debug */,
+				53935318C4E736A5BF74E8DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3AA69E4EABED682E27C100E5 /* Build configuration list for PBXProject "LoveNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE8B3D44AE39FC7D96B61A1 /* Debug */,
+				E7AA5DB45E5C4FDB139607DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 030C6C81C1B6EED30268B106 /* Project object */;
+}
