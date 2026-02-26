@@ -15,6 +15,8 @@
 		35A3FA7891375AC71251C524 /* ValentineTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1D288911A7454525803EFF /* ValentineTheme.swift */; };
 		3C9D63B4930CCC43FA37F773 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A86E57EB04BB1E21E0A291 /* ContentView.swift */; };
 		3FE96AA2D9DF7B6538C8BA31 /* LoveNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3C45C821C09FC4D856ABE /* LoveNoteApp.swift */; };
+		44802EFFFA7E8D9366918452 /* PickupLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6083B58937ADA28235A24FFA /* PickupLine.swift */; };
+		4E38564D487A5120B981B706 /* LoveLetterBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E820F1AD883CE50E5067E9A /* LoveLetterBuilderView.swift */; };
 		5CD23037B8E82E8E50644E2F /* LoveMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817E0B9547470B3F1C185BF6 /* LoveMessage.swift */; };
 		5CD3DB6A855B1B130FC7BD30 /* CardRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2595918E6ABEA6C4099E943B /* CardRenderer.swift */; };
 		6304478D49657C72A9A0CB5D /* ShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B54EDECB181EAA9CC3BAC /* ShareCardView.swift */; };
@@ -29,6 +31,7 @@
 		C5C5A4B0D77C3BD5EDE6C592 /* Recipient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC625763C071467AF4424F2 /* Recipient.swift */; };
 		CE432A963B6F898EA42A1015 /* MessageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3204090A6937A9473D476B /* MessageStore.swift */; };
 		EB01C4D2990CCD4CA7BCE4A0 /* RecipientEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DC81DB4B6EEEE069B75129 /* RecipientEntryView.swift */; };
+		F32E4A02DFC9B0F6CB512143 /* RizzRouletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDFCF11BCB7B6BB6BF793D /* RizzRouletteView.swift */; };
 		F6A7713AE0A65BCA6D0CDD20 /* ComposeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891FDAF770DE0A753F95FB8A /* ComposeViewModel.swift */; };
 		F704CFC6E096EC2296650ECF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D9FE11A0E66C9F032F021EB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -39,9 +42,11 @@
 		1E1D288911A7454525803EFF /* ValentineTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValentineTheme.swift; sourceTree = "<group>"; };
 		2595918E6ABEA6C4099E943B /* CardRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRenderer.swift; sourceTree = "<group>"; };
 		284ABCE807CFFC0F3C607C43 /* PreviewCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCardView.swift; sourceTree = "<group>"; };
+		2E820F1AD883CE50E5067E9A /* LoveLetterBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveLetterBuilderView.swift; sourceTree = "<group>"; };
 		2EA3C45C821C09FC4D856ABE /* LoveNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveNoteApp.swift; sourceTree = "<group>"; };
 		4F9E2ACB3F5A84290C6A0D2C /* ComposeMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeMessageView.swift; sourceTree = "<group>"; };
 		55A86E57EB04BB1E21E0A291 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6083B58937ADA28235A24FFA /* PickupLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickupLine.swift; sourceTree = "<group>"; };
 		6F1B54EDECB181EAA9CC3BAC /* ShareCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCardView.swift; sourceTree = "<group>"; };
 		6F3204090A6937A9473D476B /* MessageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageStore.swift; sourceTree = "<group>"; };
 		7114E50C222C1F0B0473557D /* ShimmerModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerModifier.swift; sourceTree = "<group>"; };
@@ -53,6 +58,7 @@
 		872504D7781A2A705962F4A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88FA16F8C1942EF97EBDA2B1 /* HeartParticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartParticleView.swift; sourceTree = "<group>"; };
 		891FDAF770DE0A753F95FB8A /* ComposeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewModel.swift; sourceTree = "<group>"; };
+		95FDFCF11BCB7B6BB6BF793D /* RizzRouletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RizzRouletteView.swift; sourceTree = "<group>"; };
 		A3DC81DB4B6EEEE069B75129 /* RecipientEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipientEntryView.swift; sourceTree = "<group>"; };
 		A464EB576E15A219EF647ED9 /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
 		A660A5B9938BF109F0D1FBE4 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
@@ -84,6 +90,7 @@
 			children = (
 				817E0B9547470B3F1C185BF6 /* LoveMessage.swift */,
 				A6BE9B9C9730EABBC3C0B2B2 /* MessageTemplate.swift */,
+				6083B58937ADA28235A24FFA /* PickupLine.swift */,
 				1BC625763C071467AF4424F2 /* Recipient.swift */,
 			);
 			path = Models;
@@ -148,8 +155,10 @@
 				82437ED691A4B78F79B0FCE6 /* CardDesignView.swift */,
 				4F9E2ACB3F5A84290C6A0D2C /* ComposeMessageView.swift */,
 				E221F281E1282DA42B9AF013 /* HomeView.swift */,
+				2E820F1AD883CE50E5067E9A /* LoveLetterBuilderView.swift */,
 				284ABCE807CFFC0F3C607C43 /* PreviewCardView.swift */,
 				A3DC81DB4B6EEEE069B75129 /* RecipientEntryView.swift */,
+				95FDFCF11BCB7B6BB6BF793D /* RizzRouletteView.swift */,
 				B51F44F74A70FB014A0273F8 /* SentMessagesView.swift */,
 				6F1B54EDECB181EAA9CC3BAC /* ShareCardView.swift */,
 				1C30144300F4097F95DAD399 /* TemplatePickerView.swift */,
@@ -236,15 +245,18 @@
 				2DCACB7343DEB4A3A7BE8CEF /* GradientBackground.swift in Sources */,
 				64E7C8386A95BF92EDFB2370 /* HeartParticleView.swift in Sources */,
 				18E9967BC0C4DEB4BD925085 /* HomeView.swift in Sources */,
+				4E38564D487A5120B981B706 /* LoveLetterBuilderView.swift in Sources */,
 				5CD23037B8E82E8E50644E2F /* LoveMessage.swift in Sources */,
 				3FE96AA2D9DF7B6538C8BA31 /* LoveNoteApp.swift in Sources */,
 				CE432A963B6F898EA42A1015 /* MessageStore.swift in Sources */,
 				96456D53629094E95E2240CF /* MessageTemplate.swift in Sources */,
 				02F63D2FBEAD90DED969B8AB /* PersistenceService.swift in Sources */,
+				44802EFFFA7E8D9366918452 /* PickupLine.swift in Sources */,
 				2F6EFE763AAA91B8D34BB528 /* PreviewCardView.swift in Sources */,
 				973A0A2C2D613C0DA86751A2 /* PulsingHeartView.swift in Sources */,
 				C5C5A4B0D77C3BD5EDE6C592 /* Recipient.swift in Sources */,
 				EB01C4D2990CCD4CA7BCE4A0 /* RecipientEntryView.swift in Sources */,
+				F32E4A02DFC9B0F6CB512143 /* RizzRouletteView.swift in Sources */,
 				BB7B34FEB82AE76CD052E80B /* SentMessagesView.swift in Sources */,
 				6304478D49657C72A9A0CB5D /* ShareCardView.swift in Sources */,
 				7BE2554256F67C591AFB1121 /* ShimmerModifier.swift in Sources */,

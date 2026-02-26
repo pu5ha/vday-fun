@@ -11,11 +11,23 @@ struct ContentView: View {
                 }
                 .tag(0)
 
+            LoveLetterBuilderView()
+                .tabItem {
+                    Label("Love Letter", systemImage: "text.page.fill")
+                }
+                .tag(1)
+
+            RizzRouletteView()
+                .tabItem {
+                    Label("Rizz", systemImage: "dice.fill")
+                }
+                .tag(2)
+
             SentMessagesView()
                 .tabItem {
                     Label("My Notes", systemImage: "envelope.fill")
                 }
-                .tag(1)
+                .tag(3)
         }
         .tint(ValentineTheme.roseRed)
     }
